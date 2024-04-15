@@ -1,0 +1,247 @@
+.main_title {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.main_content a {
+    font-size: 16px;
+    color: #333;
+}
+
+.title_content {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: Inter;
+}
+
+.main_content li {
+    width: 18px;
+    height: 16px;
+    color: #01953F;
+    /* padding: 2px; */
+    display: flex;
+    justify-content: center;
+}
+
+.main_content a {
+    font-size: 15px;
+    color: #333;
+}
+
+.form_title h3 {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.background_banner {
+    width: 798px;
+    /* height: 408px; */
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 5px;
+    color: rgba(59, 150, 97, 0.75) !important;
+
+}
+
+.form-row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.form-group-half {
+    flex-basis: 50%;
+}
+
+.form-group-full {
+    flex-basis: 100%;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 5px;
+}
+
+/* .form-group-full button  */
+.form-group input[type="submit"] {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    background: #F2142B !important;
+    margin-right: 0px;
+}
+
+.form-group.form-group-full {
+    text-align: center;
+}
+
+#input1 {
+    height: 44px;
+    border-radius: 9px;
+    border: 1px solid #D7D6D6;
+    background: #FFFDFD;
+    border: none;
+    color: #888;
+    font-size: 15px;
+    font-weight: 500;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+#input2 {
+    height: 44px;
+    border-radius: 9px;
+    border: 1px solid #D7D6D6;
+    background: #FFFDFD;
+    border: none;
+    color: #888;
+    font-size: 15px;
+    font-weight: 500;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#input3 {
+    border-radius: 9px;
+    border: 1px solid #D7D6D6;
+    background: #FFFDFD;
+    border: none;
+    color: #888;
+    font-size: 15px;
+    font-weight: 500;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#tab-trụ-sở-hà-nội {
+    width: 259px;
+    height: 45px;
+    text-align: center;
+}
+
+#tab-trụ-sở-hà-nội a span {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.nav-line li {
+    border: 2px solid #3B9661;
+    background: #FFF;
+    width: 259px;
+    height: 45px;
+    text-align: center;
+    margin-left: -10px;
+    color: #3B9661;
+    margin-left: -10px !important;
+}
+
+.has-icon.active {
+    background: #3B9661 !important;
+
+}
+
+.has-icon.active span {
+    color: #FFF;
+}
+
+.has-icon a span {
+    color: #3B9661;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.nav-line>li.active>a:before {
+    display: none;
+}
+
+.nav-line>li>a:before {
+    display: none;
+}
+
+.tab-panels {
+    padding-top: 0 !important;
+}
+
+.tabbed-content ul {
+    position: absolute;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .form-group input[type="submit"] {
+        text-align: center;
+    }
+
+    .nav li:last-child {
+        margin-left: 0 !important;
+    }
+
+    .contact-top-content {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        grid-column-gap: 12px;
+        padding-bottom: 10px;
+        grid-row-gap: 15px;
+    }
+
+    .contact-left {
+        flex-basis: 75%;
+        max-width: 100% !important;
+    }
+
+    .contact-right {
+        flex-basis: 75%;
+        max-width: 100% !important;
+    }
+}
+
+
+/* contact field */
+.khuyen-mai-tour{
+    padding-left: 10px;
+    /* border-style: dotted; */
+    border-width: 1px 1px 1px 1px;
+}
+.khuyen-mai-tour-title-main{
+    font-size: 17px;
+    font-weight: 500;
+}
+.khuyen-mai-tour-title{
+    font-size: 24px;
+    color: #FF0000;
+    transition: color 0.3s;
+}
+.khuyen-mai-tour-title i{
+    font-size: 24px;
+    color: #FF0000;
+    transition: color 0.3s;
+}
+.khuyen-mai-tour-icon i{
+    color: #0ACE04;
+    transition: color 0.3s;
+}
+.khuyen-mai-tour-contents{
+    margin: 0 !important;
+    padding: 0;
+}
+.khuyen-mai-tour-contents li {
+    list-style: none;
+    display: flex;
+    font-size: inherit;
+    align-items: var(--icon-vertical-align,center);
+}
+.khuyen-mai-tour-content-list{
+    color: #C80078;
+    transition: color 0.3s;
+}
+
+/* chỉnh sửa lịch trình */
+.tour-lich_trinh_content .accordion-button{
+    color: #3B9661 !important;
+    font-weight: 600 !important;
+    bottom: -6px;
+}

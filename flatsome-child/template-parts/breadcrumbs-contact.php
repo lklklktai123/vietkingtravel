@@ -1,0 +1,1 @@
+<div class="wp_breadcrumbs"><?php wp_breadcrumbs(); ?></div>
